@@ -5,8 +5,8 @@ int SCL_pin = D3;
 int SDA_pin = D4;
 
 void setup() {
-  Wire.begin(SDA_pin,SCL_pin);
-  Serial.begin(9600);
+  Wire.begin(SDA_pin,SCL_pin);  //Mulai komunikasi I2C dengan pin yang terhubung dengan nodemcu
+  Serial.begin(9600); // Mulai komunikasi serial untuk debugging
 }
 
 void loop() {
