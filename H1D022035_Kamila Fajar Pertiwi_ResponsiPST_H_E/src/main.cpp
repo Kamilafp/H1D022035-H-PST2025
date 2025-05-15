@@ -15,7 +15,6 @@ void setup() {
   lcd.init(); 
   lcd.backlight(); 
   lcd.setCursor(0,0); 
-  lcd.print("AREA BERBAHAYA");
 }
 
 void loop() {
@@ -25,7 +24,8 @@ void loop() {
   distance = 0.034 * duration / 2;
 
   if(distance <= 100){
-      lcd.scrollDisplayLeft();
+    lcd.print("AREA BERBAHAYA");
+    lcd.scrollDisplayLeft();
   }else{
     lcd.print("AMAN");
     lcd.scrollDisplayLeft();
