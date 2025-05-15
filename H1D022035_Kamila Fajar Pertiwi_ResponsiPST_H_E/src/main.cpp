@@ -18,8 +18,6 @@ void setup() {
 }
 
 void loop() {
-  lcd.scrollDisplayLeft();
-
   duration = pulseIn(ECHO_PIN, HIGH);
   distance = 0.034 * duration / 2;
 
