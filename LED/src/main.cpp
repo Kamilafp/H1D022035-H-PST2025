@@ -1,7 +1,7 @@
 #include <Arduino.h>
 
-int RED = D2;
-int YELLOW = D3;
+int RED = D0;
+int YELLOW = D2;
 int GREEN = D4;
 
 void setup() {

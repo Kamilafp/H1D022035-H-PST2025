@@ -1,8 +1,8 @@
 #include <Arduino.h>
 
-int trigPin = D0;
-int echoPin = D1;
-int led = D2;
+int trigPin = D1;
+int echoPin = D2;
+int led = D3;
 
 long duration;//pake long karena pakai microsecs, bakal panjang
 int distance;

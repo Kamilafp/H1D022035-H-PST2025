@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"name": "LED",
+			"path": "../LED"
+		},
+		{
+			"name": "LCD",
+			"path": "../LCD"
+		},
+		{
+			"name": "Scan_I2C",
+			"path": "../Scan_I2C"
+		},
+		{
+			"name": "Pertemuan 4",
+			"path": "."
+		},
+		{
+			"name": "LED_IOT",
+			"path": "../LED_IOT"
+		},
+		{
+			"name": "H1D022035_Kamila Fajar Pertiwi_ResponsiPST_H_E",
+			"path": "../H1D022035_Kamila Fajar Pertiwi_ResponsiPST_H_E"
+		}
+	],
+	"settings": {}
+}
